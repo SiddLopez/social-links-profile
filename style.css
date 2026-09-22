@@ -28,14 +28,20 @@ body{
     background-color: var(--Grey900);
     color: var(--White);
     font-family: 'Inter';
+}
+
+main{
+    background-color: var(--Grey800);
+}
+
+.background-layout{
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
-main{
-    background-color: var(--Grey800);
+.card-layout{
     display: flex;
     flex-direction: column;
     align-items: center;
