@@ -27,11 +27,13 @@
 body{
     background-color: var(--Grey900);
     color: var(--White);
-    font-family: 'Inter';
 }
 
 main{
     background-color: var(--Grey800);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .background-layout{
@@ -48,12 +50,22 @@ main{
     height: 600px;
     width: 320px;
     border-radius: 1rem;
+    padding: 1.5rem;
 }
 
 img{
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
+}
+
+.name, .quote{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-margin{
+    margin-bottom: 1rem;
 }
 
 .social-links{
