@@ -97,3 +97,8 @@ img{
     padding: 1rem;
     border-radius: 0.5rem;
 }
+
+.social-links a:hover{
+    background-color: var(--Green);
+    color: var(--Grey900)
+}
