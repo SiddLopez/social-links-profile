@@ -102,3 +102,52 @@ img{
     background-color: var(--Green);
     color: var(--Grey900)
 }
+
+
+@media screen and (min-width: 576px){
+
+    .quote, .location, .social-links{
+        font-size: 10px;
+    }
+
+    .card-layout{
+        height: 25rem;
+        width: 16rem;
+        border-radius: 0.5rem;
+    }
+
+    img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .name{
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .location{
+        font-size: 10px;
+        font-weight: 400; 
+    }
+    
+    .quote{
+        font-weight: 300;
+    }
+
+    .bottom-margin, .quote{
+        margin-bottom: 0.5rem;
+    }
+
+    .social-links{
+        gap: 0.6rem;
+    }
+
+    .social-links a{
+        font-weight: 500;
+
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+    }
+}
