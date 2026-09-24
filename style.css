@@ -127,6 +127,7 @@ img{
         font-weight: 500;
         font-size: 17px;
     }
+
     .location{
         font-size: 10px;
         font-weight: 400; 
@@ -148,6 +149,56 @@ img{
         font-weight: 500;
 
         padding: 0.55rem;
+        border-radius: 0.3rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+
+    .quote, .location, .social-links{
+        font-size: 14px;
+    }
+
+    .card-layout{
+        height: 35rem;
+        width: 22rem;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .name{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 23px;
+    }
+    
+    .location{
+        font-size: 13px;
+        font-weight: 600; 
+    }
+    
+    .quote{
+        font-weight: 200;
+    }
+
+    .bottom-margin, .quote{
+        margin-bottom: 1rem;
+    }
+
+    .social-links{
+        gap: 0.85rem;
+    }
+
+    .social-links a{
+        font-weight: 500;
+
+        padding: 0.75rem;
         border-radius: 0.3rem;
     }
 }
