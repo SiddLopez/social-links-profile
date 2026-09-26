@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-I have never used the mobile-first workflow before, it was the first time that I deployed different styles for different sreens and widths. It is actually interesting to think about how every screen needs its own style.
+I have never used the mobile-first workflow before, it was the first time that I deployed different styles for different screens and widths. It is actually interesting to think about how every screen needs its own style.
 
 ```css
 @media screen and (min-width: 1400px){
